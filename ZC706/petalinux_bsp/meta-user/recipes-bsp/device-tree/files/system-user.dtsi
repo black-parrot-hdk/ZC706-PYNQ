@@ -1,0 +1,8 @@
+/include/ "system-conf.dtsi"
+/ {
+};
+
+&watchdog0 {
+    status = "okay";
+    reset-on-timeout;
+};
