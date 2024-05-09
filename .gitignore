@@ -2,3 +2,7 @@
 *.bit
 *.hwh
 *.xsa
+*.jou
+*.log
+bsp/*
+ZC706/base/base/*
