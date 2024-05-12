@@ -23,5 +23,6 @@ bsp:
 	cd $(BSP_DIR) && petalinux-package --bsp --force -p $(BSP_NAME) --hwsource $(HW_SRC) --output $(BOARD_DIR)/$(BSP_NAME).bsp
 
 clean:
+	rm -rf $(BOARD_DIR)/$(BSP_NAME).bsp
 	rm -rf $(BSP_DIR)
 	$(MAKE) -C $(HW_DIR) clean
